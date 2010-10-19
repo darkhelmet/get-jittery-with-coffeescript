@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "resize",
+    "iphone"
+  ],
+  "transitions": "fade",
+  "title": "Get Jittery With Coffeescript",
+  "theme": "slidedown",
+  "slides": [
+    "intro.md",
+    "bio.md"
+  ]
+}

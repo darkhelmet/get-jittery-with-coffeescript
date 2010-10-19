@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            CLASS = AboutPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {webview = WebView; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = HUDWindow; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }
+    ); 
+    IBVersion = 1; 
+}

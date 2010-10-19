@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = FullScreenWindow; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {appController = id; }; 
+            SUPERCLASS = NSPanel; 
+        }, 
+        {CLASS = HUDWindow; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {
+            ACTIONS = {forward = id; }; 
+            CLASS = MyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {popupWindow = NSWindow; window = NSWindow; }; 
+            SUPERCLASS = NSDocument; 
+        }
+    ); 
+    IBVersion = 1; 
+}
