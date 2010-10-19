@@ -4,10 +4,29 @@
     "iphone"
   ],
   "transitions": "fade",
-  "title": "Get Jittery With Coffeescript",
   "theme": "slidedown",
+  "title": "Get Jittery With Coffeescript",
   "slides": [
     "intro.md",
-    "bio.md"
+    "bio.md",
+    "agenda.md",
+    "what-1.md",
+    "what-2.md",
+    "why-1.md",
+    "why-2.md",
+    "why-3.html",
+    "less-1.md",
+    "less-2.md",
+    "less-3.md",
+    "less-4.md",
+    "less-5.md",
+    "less-6.md",
+    "less-7.md",
+    "features-1.md",
+    "features-2.md",
+    "classes-1.md",
+    "classes-2.md",
+    "practices-1.md",
+    "thanks.md"
   ]
 }
