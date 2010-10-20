@@ -3,4 +3,4 @@
 * Edmonton Rubyists
 * Jeremy Ashkenas
 * Shining
-* All example blatantly copy-and-pasted from Jeremy's docs.
+* All examples blatantly copy-and-pasted from Jeremy's docs.
