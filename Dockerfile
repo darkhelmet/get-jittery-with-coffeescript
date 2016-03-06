@@ -1,12 +1,11 @@
-FROM golang:1.4.2-wheezy
+FROM alpine
 MAINTAINER Daniel Huckstep <darkhelmet@darkhelmetlive.com>
 
-RUN go get github.com/darkhelmet/serve
+RUN apk --no-cache add nginx
 
-ADD . /jittery
-
-WORKDIR /jittery
+COPY . /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 80
 
-CMD serve -port 80 -dir /jittery
+CMD nginx
